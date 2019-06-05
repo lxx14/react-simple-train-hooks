@@ -1,0 +1,20 @@
+body {
+  position: relative;
+}
+button {
+  width: 100px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -100px;
+  transition: 0.5s;
+}
+.open {
+  top: 0px;
+}
+.login-form {
+  display: flex;
+  flex-direction: column
+}

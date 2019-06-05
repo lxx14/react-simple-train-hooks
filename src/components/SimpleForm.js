@@ -27,15 +27,17 @@ const SimpleForm = () => {
     if (password !== '' && password === passConf) {
       handleIsLogined(isLogined = true);
       handleShow(isShow = false);
+    } else if (login==='') {
+      alert('incognito? its not relevant:)')
     } else {
       alert('oh no!!! you forgot password? Try again :)')
     }
   }
   const logoutHandle = () => {
     handleIsLogined(isLogined = false);
-    handleLogin(login = ' ');
-    handlePassword(password = ' ');
-    handlePassConf(passConf = ' ');
+    handleLogin(login = '');
+    handlePassword(password = '');
+    handlePassConf(passConf = '');
   }
 
   return (

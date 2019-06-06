@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Toggle from './src/components/Toggle';
-import SimpleForm from './src/components/SimpleForm'
+import SimpleForm from './src/components/SimpleForm';
+import PageWithFetch from './src/components/PageWithFetch';
 
 const App = () => {
 
@@ -8,6 +9,7 @@ const App = () => {
     <div>
       <Toggle />
       <SimpleForm />
+      <PageWithFetch />
     </div>
   );
 }
